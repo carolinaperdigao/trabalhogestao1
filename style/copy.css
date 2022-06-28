@@ -1,0 +1,115 @@
+.episode_selection .episodeSelector-header
+    {
+        justify-content: space-between;
+        display: flex;
+        -webkit-box-pack: justify;
+        margin: 15px;
+        align-items: baseline;
+        margin-top: 15px;
+    }
+
+    .previewModal--section-header {
+        margin-left: 10px;
+    }
+
+    div .episodeSelector-header {
+
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .episodeSelector-label {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .titleCardList--container:first-of-type {
+        border-top: 1px solid #404040;
+    }
+
+    .titleCardList--container {
+        border-bottom: 1px solid #404040;
+        padding: 1em;
+    }
+
+div .episode_selection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /**segue a mesma direção do flex direction*/
+    align-items: flex-start;
+}
+
+.titleCardList--container_episode-item {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /**segue a mesma direção do flex direction*/
+    align-items: flex-start;
+}
+
+div .item1 {
+    margin-bottom: 50px;
+    margin-right: 15px ;
+    margin-left: 30px;
+    max-width: 1700px;
+}
+
+div .item2 {
+    margin-bottom: 50px;
+    margin-right: 15px ;
+    max-width: 1700px;
+}
+
+div .item3 {
+    margin-bottom: 50px;
+    margin-right: 15px;
+    margin-left: 5px;
+    max-width: 1700px;
+}
+
+div .item4 {
+    margin-bottom: 50px;
+    margin-right: 15px;
+    margin-left: 5px;
+    max-width: 1700px;
+}
+
+.titleCard-title_index {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    margin-right: 15px;
+}
+
+div .ptrack-content {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10px;
+}
+
+.titleCard-title_text {
+    margin-left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.duration { 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.titleCardList--metadataWrapper {
+    margin-top: 20px;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.line {
+    border-top: solid 1px #404040;
+    margin-bottom: 10px; 
+    max-width: 1500px;
+    justify-content: space-between;
+        display: flex;
+        -webkit-box-pack: justify;
+        margin: 15px;
+        align-items: baseline;
+    
+}
